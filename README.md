@@ -1,8 +1,5 @@
 # Dockerized Apache Airflow
 
-[![CI Status](https://github.com/puckel/docker-airflow/workflows/CI/badge.svg?branch=master)](https://github.com/puckel/docker-airflow/actions?query=workflow%3ACI+branch%3Amaster+event%3Apush)
-[![Docker Build](https://img.shields.io/docker/build/puckel/docker-airflow?style=plastic)](https://hub.docker.com/r/puckel/docker-airflow/tags?ordering=last_updated)
-
 ## Overview
 This repository provides a **Dockerized Apache Airflow** setup, enabling easy deployment and management of workflows. The project uses:
 - **Python 3.7-slim-buster**
@@ -53,7 +50,3 @@ docker-compose -f docker-compose-CeleryExecutor.yml scale worker=5
 
 ## Contributing
 Fork, improve, and submit a PR to help enhance the project!
-
----
-**Author:** Maintained by [puckel](https://github.com/puckel) and the open-source community.
-
